@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Get proxy plans",
+      "method": "GET",
+      "queryStringParameters": {
+        "action": "plans"
+      },
+      "expectedStatus": 200,
+      "expectedBody": "array",
+      "bodyMatcher": "partial"
+    }
+  ]
+}
