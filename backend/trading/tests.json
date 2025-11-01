@@ -1,0 +1,18 @@
+{
+  "tests": [
+    {
+      "name": "Get user balance",
+      "method": "GET",
+      "queryStringParameters": {
+        "user_id": "1",
+        "action": "balance"
+      },
+      "expectedStatus": 200,
+      "expectedBody": {
+        "usd": "number",
+        "crypto": "array"
+      },
+      "bodyMatcher": "partial"
+    }
+  ]
+}

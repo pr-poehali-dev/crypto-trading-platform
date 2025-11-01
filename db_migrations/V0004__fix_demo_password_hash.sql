@@ -1,0 +1,2 @@
+-- Исправление пароля демо пользователя на правильный хеш
+UPDATE users SET password_hash = '0b14d501a594442a01c6859541bcb3e8164d183d32937b851835442f69d5c94e' WHERE email = 'demo@crypto.com';

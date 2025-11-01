@@ -1,0 +1,10 @@
+{
+  "tests": [
+    {
+      "name": "Test OPTIONS request",
+      "method": "OPTIONS",
+      "expectedStatus": 200,
+      "bodyMatcher": "partial"
+    }
+  ]
+}
